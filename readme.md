@@ -1,7 +1,7 @@
 # 🛒 E-Commerce Backend API
 
 This is a e-commerce backend built with **Node.js**, **Express.js**, and **MongoDB**. It features authentication, authorization, product browsing, cart management, coupon checking, and admin access. The project also includes Redis caching and image upload via Multer.
-[https://www.youtube.com/watch?v=sX57TLIPNx8](I applied with a youtube course )
+I applied with a youtube course https://www.youtube.com/watch?v=sX57TLIPNx8
 
 ## 🚀 Tech Stack
 
