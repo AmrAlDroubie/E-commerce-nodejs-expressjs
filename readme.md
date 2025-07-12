@@ -69,12 +69,17 @@ I applied with a youtube course https://www.youtube.com/watch?v=sX57TLIPNx8
 
 ## 📂 Folder Structure
 
-/controllers
-/models
-/routes
-/middlewares
-/utils
-/uploads
+.
+├── controllers/ # Route handler logic (auth, product, cart, etc.)
+├── models/ # Mongoose models (User, Product, Cart, Coupon)
+├── routes/ # API route definitions
+├── middlewares/ # Custom middleware (auth, error handling, etc.)
+├── libs/ # Helper functions (e.g., Redis setup, Database connection)
+├── uploads/ # Uploaded images (via Multer)
+├── config/ # Configuration files (DB, Redis, environment)
+├── .env # Environment variables (not committed)
+├── server.js # Main entry point
+└── package.json # Project metadata and scripts
 
 ## 🧪 Testing
 
@@ -85,16 +90,12 @@ Feel free to import the collection from the provided Postman documentation.
 
 ## 📸 Features Summary
 
-.
-├── controllers/ # Route handler logic (auth, product, cart, etc.)
-├── models/ # Mongoose models (User, Product, Cart, Coupon)
-├── routes/ # API route definitions
-├── middlewares/ # Custom middleware (auth, error handling, etc.)
-├── lib/ # Helper functions (e.g., Redis setup , Database connection)
-├── uploads/ # Uploaded images (via Multer)
-├── .env # Environment variables (not committed)
-├── server.js # Main entry point
-└── package.json # Project metadata and scripts
+- JWT-based login system with refresh token
+- File structure using MVC pattern
+- Redis caching for performance
+- Multer-based image upload
+- Postman-tested endpoints
+  └── package.json # Project metadata and scripts
 
 ---
 
