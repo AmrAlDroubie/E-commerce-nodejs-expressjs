@@ -68,3 +68,37 @@ I applied with a youtube course https://www.youtube.com/watch?v=sX57TLIPNx8
 ---
 
 ## 📂 Folder Structure
+
+/controllers
+/models
+/routes
+/middlewares
+/utils
+/uploads
+
+## 🧪 Testing
+
+All endpoints are tested and documented using **Postman**.  
+Feel free to import the collection from the provided Postman documentation.
+
+---
+
+## 📸 Features Summary
+
+- JWT-based login system with refresh token
+- File structure using MVC pattern
+- Redis caching for performance
+- Multer-based image upload
+- Postman-tested endpoints
+
+---
+
+## 📌 How to Run
+
+```bash
+git clone https://github.com/AmrAlDroubie/E-commerce-nodejs-expressjs.git
+cd E-commerce-nodejs-expressjs
+npm install
+cp .env.example .env   # Fill in your environment variables
+npm start
+```
