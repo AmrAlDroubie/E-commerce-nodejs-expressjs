@@ -69,9 +69,15 @@ I applied with a youtube course https://www.youtube.com/watch?v=sX57TLIPNx8
 
 ## 📂 Folder Structure
 
-.
-
-<pre> 📦 project-root ├── 📁 config # Database and Redis configurations ├── 📁 controllers # Route handler logic (auth, products, cart, etc.) ├── 📁 middlewares # Custom middleware (auth, admin, error handling) ├── 📁 models # Mongoose schemas and data models ├── 📁 routes # Express route definitions ├── 📁 uploads # Uploaded images via Multer ├── 📁 utils # Helper functions and utilities ├── 📁 postman # Postman collections and API documentation ├── 📄 .env # Environment variables (not committed) ├── 📄 server.js # Entry point of the application └── 📄 package.json # Project metadata and NPM scripts </pre>
+- ├── controllers/ # Route handler logic (auth, products, cart, etc.)
+- ├── models/ # Mongoose schemas and data models
+- ├── routes/ # Express route definitions
+- ├── middlewares/ # Custom middleware (auth, admin, error handling)
+- ├── lib/ # Helper functions (e.g. Redis config , Database connection)
+- ├── uploads/ # Uploaded images via Multer
+- ├── .env # Environment variables (not committed)
+- ├── server.js # Entry point of the application
+- └── package.json # NPM dependencies and scripts
 
 ## 🧪 Testing
 
