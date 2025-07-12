@@ -76,7 +76,6 @@ I applied with a youtube course https://www.youtube.com/watch?v=sX57TLIPNx8
 ├── middlewares/ # Custom middleware (auth, error handling, etc.)
 ├── libs/ # Helper functions (e.g., Redis setup, Database connection)
 ├── uploads/ # Uploaded images (via Multer)
-├── config/ # Configuration files (DB, Redis, environment)
 ├── .env # Environment variables (not committed)
 ├── server.js # Main entry point
 └── package.json # Project metadata and scripts
