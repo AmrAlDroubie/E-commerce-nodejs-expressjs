@@ -76,9 +76,9 @@ I applied with a youtube course https://www.youtube.com/watch?v=sX57TLIPNx8
   - ├── middlewares/ # Custom middleware (auth, admin, error handling)
   - ├── lib/ # Helper functions (e.g. Redis config , Database connection)
   - ├── uploads/ # Uploaded images via Multer
-  - ├── .env # Environment variables (not committed)
   - ├── server.js # Entry point of the application
-  - └── package.json # NPM dependencies and scripts
+- ├── .env # Environment variables
+- └── package.json # NPM dependencies and scripts
 
 ## 🧪 Testing
 
