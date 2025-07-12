@@ -70,15 +70,15 @@ I applied with a youtube course https://www.youtube.com/watch?v=sX57TLIPNx8
 ## 📂 Folder Structure
 
 .
-├── controllers/ # Route handler logic (auth, product, cart, etc.)
-├── models/ # Mongoose models (User, Product, Cart, Coupon)
-├── routes/ # API route definitions
-├── middlewares/ # Custom middleware (auth, error handling, etc.)
-├── libs/ # Helper functions (e.g., Redis setup, Database connection)
-├── uploads/ # Uploaded images (via Multer)
+├── controllers/ # Route handler logic (auth, products, cart, etc.)
+├── models/ # Mongoose schemas and data models
+├── routes/ # Express route definitions
+├── middlewares/ # Custom middleware (auth, admin, error handling)
+├── lib/ # Helper functions (e.g. Redis config)
+├── uploads/ # Uploaded images via Multer
 ├── .env # Environment variables (not committed)
-├── server.js # Main entry point
-└── package.json # Project metadata and scripts
+├── server.js # Entry point of the application
+└── package.json # NPM dependencies and scripts
 
 ## 🧪 Testing
 
